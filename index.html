@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Fidel</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Development version -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
+
 <body>
     <header>
-        <h2>PORTFÓLIO</h2>
+        <h2>PORTFÓLIO <br>
+            <p>Fidel Elias Fernando</p>
+        </h2>
 
         <nav>
             <ul>
@@ -21,11 +26,154 @@
             </ul>
         </nav>
 
-        <button class="btn-contacts">Contactar <i data-lucide="menu"></i></button>
+        <button class="btn-contacts">Contactar <i data-lucide="arrow-right" class="icon-arrow-right"></i></button>
     </header>
 
-    <main></main>
+    <div class="image-background-home"></div>
+
+    <main>
+        <div class="block-welcome">
+            <div class="about-me-short">
+                <p class="text-hello">Olá Mundo <mark>
+                        <>
+                    </mark></p>
+                <p class="text-my-name">Eu sou o Fidelino. <mark>Desenvolvedor Web</mark></p>
+                <p class="slogan-short">Seu sucesso online é o nosso objetivo. Oferecemos soluções digitais
+                    personalizadas e eficazes.</p>
+
+                <button class="btn-solicite">Solicitar Trabalho</button>
+            </div>
+
+            <div class="image-welcome"></div>
+        </div>
+
+        <div class="block-about">
+            <h3>Sobre mim</h3>
+
+            <div class="block-more-details">
+                <div class="block-left">
+                    Sou um programador front-end apaixonado por criar interfaces web intuitivas e responsivas. Com
+                    experiência na tecnologia Angular, busco constantemente aprimorar minhas habilidades e aprender
+                    novas ferramentas. Valorizo a humildade, a pontualidade e a colaboração em equipe.
+
+                    <p class="text-interesse">Interesses</p>
+                    <ul>
+                        <li>Desenvolvimento Back-End: Java(Spring)</li>
+                        <li>Desenvolvimento mobile: Flutter</li>
+                        <li>Gestor de Projectos</li>
+                    </ul>
+
+                    <p class="text-interesse">Qualidade</p>
+                    <ul>
+                        <li>Trabalho em equipe</li>
+                        <li>Compreensão rápida</li>
+                        <li>Pontual</li>
+                        <li>Vontade de aprender mais</li>
+                    </ul>
+                </div>
+
+                <div class="block-right"></div>
+            </div>
+
+            <div class="block-techn">
+                <div class="techn techn1">
+                    <img onmouseenter="mouseEnter('angular')" onmouseout="mouseOut('angular')" class="logo"
+                        src="images/angular.png" alt="Angular Logo">
+                    <div id="card-angular" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">Angular</p>
+                        <div class="level level1"></div> <span>50%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn2">
+                    <img onmouseenter="mouseEnter('css')" onmouseout="mouseOut('css')" class="logo"
+                        src="images/css.png" alt="CSS Logo">
+                    <div id="card-css" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">CSS3</p>
+                        <div class="level level2"></div> <span>80%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn8">
+                    <img onmouseenter="mouseEnter('figma')" onmouseout="mouseOut('figma')" class="logo"
+                        src="images/figma.png" alt="Figma Logo">
+                    <div id="card-figma" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">Figma</p>
+                        <div class="level level8"></div> <span>60%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn3">
+                    <img onmouseenter="mouseEnter('html')" onmouseout="mouseOut('html')" class="logo"
+                        src="images/html.png" alt="HTML Logo">
+                    <div id="card-html" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">HTML5</p>
+                        <div class="level level3"></div> <span>95%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn9">
+                    <img onmouseenter="mouseEnter('ionic')" onmouseout="mouseOut('ionic')" class="logo"
+                        src="images/ionic.svg" alt="Ionic Logo">
+                    <div id="card-ionic" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">Ionic</p>
+                        <div class="level level9"></div> <span>49%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn4">
+                    <img onmouseenter="mouseEnter('js')" onmouseout="mouseOut('js')" class="logo"
+                        src="images/js.png" alt="JavaScript Logo">
+                    <div id="card-js" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">JavaScript</p>
+                        <div class="level level4"></div> <span>55%</span>
+                    </div>
+                </div>
+
+                <div class="techn techn6">
+                    <img onmouseenter="mouseEnter('typescript')" onmouseout="mouseOut('typescript')" class="logo"
+                        src="images/logo-typescript.svg" alt="TypeScript Logo">
+                    <div id="card-typescript" class="ctx-techn" style="display: none;">
+                        <p class="ctx-techn-title">TypeScript</p>
+                        <div class="level level6"></div> <span>47%</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="block-project">
+                <h3>Meus projectos</h3>
+
+                <div class="alls-projects">
+                    <div class="items-projects">
+                        <img src="images/Screenshot from 2024-09-17 19-11-13.png" alt="">
+                        <p class="name-project">Mikanda Books</p>
+                        <p class="description">É um sistema de Leitura de livros, que possibilita a escrita de livros e vender.</p>
+                    </div>
+
+                    <div class="items-projects">
+                        <img src="images/Screenshot from 2024-09-17 19-13-23.png" alt="">
+                        <p class="name-project">System Hospital</p>
+                        <p class="description">Sitema de Gestão hospital completo. Com os serviços(Recepção, Infermária, Consultório, Laboratório e Farmácia)</p>
+                    </div>
+
+                    <div class="items-projects">
+                        <img src="images/Screenshot from 2024-09-17 19-14-11.png" alt="">
+                        <p class="name-project">Portal Message</p>
+                        <p class="description">Um portal baseado no SMS Marketing que envia mensagem num grupo ou contacto específico.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-services">
+
+            </div>
+    </main>
 
     <footer></footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
