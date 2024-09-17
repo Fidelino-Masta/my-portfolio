@@ -179,7 +179,7 @@ main {
 
 /* Bloco que fala sobre mim como profissional */
 .block-about {
-    margin-top: 74px;
+    margin-top: 120px;
 }
 
 h3 {
@@ -190,7 +190,7 @@ h3 {
 }
 
 .block-more-details {
-    margin-top: 15px;
+    margin-top: 32px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -226,7 +226,7 @@ h3 {
 .block-techn {
     width: 100%;
     background: rgba(128, 128, 128, .1);
-    margin-top: 48px;
+    margin-top: 74px;
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
@@ -318,14 +318,14 @@ h3 {
 }
 
 .block-project {
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 .alls-projects {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 74px;
 }
 
 .items-projects {
@@ -356,9 +356,176 @@ h3 {
     color: #616161;
 }
 
-.block-services {
-    margin-top: 74px;
+.count-projects {
+    padding: 30px 0;
+    background: white;
+    margin-top: 90px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 90px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.item-count-project {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.number-project {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.name-count-project {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #616161;
+}
+
+.line {
+    width: 2px;
+    height: 100px;
+    border-left: 1px solid #cbcbcb;
+}
+
+.block-services {
+    margin-top: 120px;
+}
+
+.alls-service {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.item-service {
+    width: 350px;
+}
+
+.icone-service {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.icone-service1 {
+    background: #8d46ff;
+}
+
+.icone-service2 {
+    background: green;
+}
+
+.icone-service3 {
+    background: rgb(255, 43, 43);
+}
+
+.icon-tools {
+    color: white;
+    width: 24px;
+}
+
+.title-service {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.description-service {
+    font-size: 14px;
+    color: #616161;
+    margin-top: 4px;
+}
+
+
+.container-blog {
+    margin-top: 120px;
+}
+
+.container-blog h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.text-blog {
+    width: 600px;
+    margin: 16px auto 48px;
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+}
+
+.blog-grid {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.post-item {
+    width: 410px;
+    padding: 10px;
+    border-radius: 10px;
+    background:rgba(128, 128, 128, .1);
+    transition: .2s;
+    position: relative;
+    cursor: pointer;
+}
+
+.post-item:hover {
+    background: black;
+}
+
+.post-item:hover .title-post {
+    color: white;
+}
+
+.post-item:hover .description-post {
+    color: #cbcbcb;
+}
+
+.post-item .date {
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    background: #e9ff25;
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+    left: 20px;
+}
+
+.post-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.title-post {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    transition: .2s;
+}
+
+.description-post {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 8px;
+    transition: .2s;
+}
+
+footer {
+    margin-top: 74px;
 }
