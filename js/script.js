@@ -1,6 +1,3 @@
-lucide.createIcons();
-
-
 const technElements = document.querySelectorAll('.techn');
 const ctxTechnElements = document.querySelectorAll('.ctx-techn');
 

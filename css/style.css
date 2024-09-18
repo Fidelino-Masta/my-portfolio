@@ -30,29 +30,29 @@ header {
     margin: 0 auto;
 }
 
-header h2 {
+h2 {
     font-size: 18px;
 }
 
-header h2 p {
+h2 p {
     font-size: 12px;
     color: #808080;
     font-weight: normal;
 }
 
-header ul {
+.link-head-footer {
     display: flex;
     align-items: center;
     gap: 72px;
     list-style-type: none;
 }
 
-header ul li {
+.link-head-footer li {
     transition: .2s;
     cursor: pointer;
 }
 
-header ul li:hover {
+.link-head-footer li:hover {
     color: #8d46ff;
 }
 
@@ -71,7 +71,6 @@ header button {
 
 .icon-arrow-right {
     width: 20px;
-    color: #8d46ff;
 }
 
 header button:hover .icon-arrow-right {
@@ -429,8 +428,8 @@ h3 {
 }
 
 .icon-tools {
-    color: white;
     width: 24px;
+    color: white;
 }
 
 .title-service {
@@ -481,7 +480,7 @@ h3 {
 }
 
 .post-item:hover {
-    background: black;
+    background: #212121;
 }
 
 .post-item:hover .title-post {
@@ -493,7 +492,7 @@ h3 {
 }
 
 .post-item .date {
-    padding: 7px 12px;
+    padding: 5px 10px;
     border-radius: 20px;
     color: rgb(0, 0, 0);
     font-size: 12px;
@@ -527,5 +526,28 @@ h3 {
 }
 
 footer {
-    margin-top: 74px;
+    margin: 120px auto 0;
+    height: 300px;
+    background:rgba(128, 128, 128, .1);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-social {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+
+.icon-media {
+    width: 26px;
+    opacity: .7;
+}
+
+.text-footer {
+    font-size: 14px;
+    color: #616161;
 }

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Fidel</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Development version -->
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 
 <body>
@@ -17,7 +15,7 @@
         </h2>
 
         <nav>
-            <ul>
+            <ul class="link-head-footer">
                 <li>Home</li>
                 <li>Sobre</li>
                 <li>Projectos</li>
@@ -26,7 +24,8 @@
             </ul>
         </nav>
 
-        <button class="btn-contacts">Contactar <i data-lucide="arrow-right" class="icon-arrow-right"></i></button>
+        <button class="btn-contacts">Contactar <img class="icon-arrow-right" src="icons/arrow-right.svg"
+                alt=""></i></button>
     </header>
 
     <div class="image-background-home"></div>
@@ -203,31 +202,36 @@
                 <div class="alls-service">
                     <div class="item-service">
                         <div class="icone-service icone-service1">
-                            <i data-lucide="code-xml" class="icon-tools"></i>
+                            <img src="icons/code-xml.svg" alt="" class="icon-tools">
                         </div>
                         <p class="title-service">Desenvolvedor Web</p>
                         <p class="description-service">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos veniam
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos
+                            veniam
                             laboriosam inventore alias quaerat asperiores excepturi.
                         </p>
                     </div>
+
                     <div class="item-service">
                         <div class="icone-service icone-service2">
-                            <i data-lucide="tablet-smartphone" class="icon-tools"></i>
+                            <img src="icons/tablet-smartphone.svg" alt="" class="icon-tools">
                         </div>
                         <p class="title-service">Desenvolvedor Mobile</p>
                         <p class="description-service">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos veniam
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos
+                            veniam
                             laboriosam inventore alias quaerat asperiores excepturi.
                         </p>
                     </div>
+
                     <div class="item-service">
                         <div class="icone-service icone-service3">
-                            <i data-lucide="figma" class="icon-tools"></i>
+                            <img src="icons/figma.svg" alt="" class="icon-tools">
                         </div>
                         <p class="title-service">UI/UX Design</p>
                         <p class="description-service">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos veniam
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum qui ducimus eos
+                            veniam
                             laboriosam inventore alias quaerat asperiores excepturi.
                         </p>
                     </div>
@@ -243,7 +247,7 @@
 
                 <div class="blog-grid">
                     <div class="post-item">
-                        <div class="date">Setembro 2023</div>
+                        <div class="date">Setembro 2023 - IA</div>
                         <img src="images/images.jpeg" alt="">
 
                         <p class="title-post">OpenAI apresenta nova série de modelos o1</p>
@@ -254,7 +258,7 @@
                     </div>
 
                     <div class="post-item">
-                        <div class="date">Outubro 2023</div>
+                        <div class="date">Outubro 2023 - Hardware</div>
                         <img src="images/images (1).jpeg" alt="">
 
                         <p class="title-post">Computadores quânticos autocorretivos estão mais próximos da realidade</p>
@@ -265,7 +269,7 @@
                     </div>
 
                     <div class="post-item">
-                        <div class="date">Outubro 2023</div>
+                        <div class="date">Outubro 2023 - IA</div>
                         <img src="images/ia-identifica-tumores-753x425.jpg" alt="">
 
                         <p class="title-post">IA identifica tipos de tumores cerebrais mais rapidamente</p>
@@ -275,13 +279,62 @@
                             tratamento...
                         </p>
                     </div>
+
+                    <div class="post-item">
+                        <div class="date">Abril 2024 - WEB</div>
+                        <img src="images/image1.png" alt="">
+
+                        <p class="title-post">Angular 18: Uma Nova Era para o Desenvolvimento Web</p>
+                        <p class="description-post">
+                            O Angular 18 representa um marco significativo na evolução do framework Angular. Essa
+                            versão, lançada em 2024...
+                        </p>
+                    </div>
+
+                    <div class="post-item">
+                        <div class="date">Agosto 2024 - Realidade Virtual</div>
+                        <img src="images/medium-shot-man-wearing-vr-glasses-e1685541899857-768x389.jpg" alt="">
+
+                        <p class="title-post">Realidade Virtual e Aumentada</p>
+                        <p class="description-post">
+                            Novas aplicações para VR e AR, como jogos mais imersivos ou ferramentas de treinamento...
+                        </p>
+                    </div>
+
+                    <div class="post-item">
+                        <div class="date">Fevereiro 2024 - Empresas</div>
+                        <img src="images/Business-Technology-scaled-1.jpeg" alt="">
+
+                        <p class="title-post">Nos últimos anos, tem aumentado o número de Startups</p>
+                        <p class="description-post">
+                            Histórias de sucesso, novas ideias de negócios, investimentos em tecnologia...
+                        </p>
+                    </div>
                 </div>
             </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <nav>
+            <ul class="link-head-footer">
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Projectos</li>
+                <li>Serviços</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+        <div class="media-social">
+            <img src="icons/facebook-logo.svg" alt="" class="icon-media">
+            <img src="icons/github-logo.svg" alt="" class="icon-media">
+            <img src="icons/linkedin-logo.svg" alt="" class="icon-media">
+            <img src="icons/envelope-simple.svg" alt="" class="icon-media">
+        </div>
+
+        <p class="text-footer">© 2020 Your Company, Inc. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 
