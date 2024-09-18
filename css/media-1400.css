@@ -1,0 +1,154 @@
+@media (max-width: 1400px) {
+
+    header,
+    main {
+        width: 1100px;
+    }
+
+    ul {
+        gap: 32;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    header button {
+        font-size: 13px;
+    }
+
+    .icon-arrow-right {
+        width: 16px;
+    }
+
+    .image-background-home {
+        height: 600px;
+    }
+
+    .text-hello {
+        font-size: 20px;
+    }
+
+    .text-my-name {
+        width: 400px;
+        font-size: 32px;
+    }
+
+    .slogan-short {
+        font-size: 14px;
+        width: 500px;
+    }
+
+    .btn-solicite {
+        font-size: 14px;
+        height: 45px;
+        padding: 0 12;
+        border-radius: 8px;
+    }
+
+    .image-welcome {
+        width: 400px;
+        height: 400px;
+    }
+
+
+
+    h3 {
+        font-size: 17px;
+    }
+
+    .block-more-details .block-left {
+        font-size: 14px;
+        width: 500px;
+    }
+
+    .block-more-details .block-right {
+        width: 300px;
+        height: 400px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .ctx-techn {
+        width: 250px;
+        padding: 6px 12px;
+    }
+
+    .ctx-techn-title {
+        font-size: 14px;
+    }
+
+    .ctx-techn span {
+        font-size: 12px;
+    }
+
+
+
+    .items-projects {
+        width: 350px;
+    }
+
+    .items-projects:nth-child(2) {
+        scale: 1.07;
+    }
+
+    .items-projects img {
+        height: 150px;
+    }
+
+    .name-project {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+
+
+    .count-projects {
+        gap: 70px;
+    }
+
+    .number-project {
+        font-size: 28px;
+    }
+
+    .name-count-project {
+        font-size: 13px;
+    }
+
+
+
+    .item-service {
+        width: 300px;
+    }
+
+    .title-service {
+        font-size: 16px;
+    }
+
+    .description-service {
+        font-size: 12px;
+    }
+
+
+    .post-item {
+        width: 380px;
+    }
+
+    .post-item img {
+        height: 180px;
+        border-radius: 15px;
+    }
+
+    .title-post {
+        font-size: 16px;
+    }
+
+    .description-post {
+        font-size: 13px;
+    }
+}

@@ -473,7 +473,7 @@ h3 {
     width: 410px;
     padding: 10px;
     border-radius: 10px;
-    background:rgba(128, 128, 128, .1);
+    background: rgba(128, 128, 128, .1);
     transition: .2s;
     position: relative;
     cursor: pointer;
@@ -528,7 +528,7 @@ h3 {
 footer {
     margin: 120px auto 0;
     height: 300px;
-    background:rgba(128, 128, 128, .1);
+    background: rgba(128, 128, 128, .1);
     display: flex;
     flex-direction: column;
     gap: 48px;
